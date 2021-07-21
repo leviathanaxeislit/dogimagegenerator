@@ -1,0 +1,121 @@
+/* CSS HEX */
+/*
+--orange-peel: #ff9f1cff;
+--mellow-apricot: #ffbf69ff;
+--white: #ffffffff;
+--light-cyan: #cbf3f0ff;
+--tiffany-blue: #2ec4b6ff;*/
+body {
+  font-family: "Comfortaa";
+  text-align: center;
+  color: black;
+  background: #ff9f1cff;
+  letter-spacing: 0.25em;
+}
+
+#wrapper {
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  margin: 50px 0 75px 0;
+  
+}
+
+img {
+  border: 1px solid #ff9f1cff;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 2px 2px 5px #ff9f1cff;
+}
+
+#column {
+  display: inline-block;
+  width: 40%;
+  margin: 0;
+}
+
+#btns {
+  margin: 50px 0 50px 0;
+}
+
+#new-dog {
+background: #2ec4b6ff;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #ff9f1cff;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  border-color: #ffbf69ff;
+}
+
+#new-dog:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#dog-breed {
+background: #2ec4b6ff;
+  margin: 10px;
+  padding: 15px 45px 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #ff9f1cff;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  border-color: #ffbf69ff;
+}
+
+#dog-breed:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+option{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+#dog-breed {
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0 10px 0;
+  margin: 25px 0 0 0;
+  bottom: 0;
+  letter-spacing: 0.1em;
+}
+#lob {
+  font-weight: lighter;
+  font-size: 10px;
+  padding 20px;
+}
+svg {
+  font-weight: lighter;
+  size: 1px;
+  color: red;
+}
+a {
+  color: black;
+}
+
+@media screen and (max-width: 850px) {
+  #column {
+    width: 100%;
+  }
+}
+
+
