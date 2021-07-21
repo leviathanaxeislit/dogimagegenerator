@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="column">
+        <h1>Dog <br />Image Generator</h1>
+        <div id="btns">
+          <button id="new-dog">Click</button>
+          <select id="dog-breed">
+            <option value="">-- Select Breed --</option>
+            <option value="akita">Akita</option>
+            <option value="beagle">Beagle</option>
+            <option value="bouvier">Bouvier</option>
+            <option value="boxer">Boxer</option>
+            <option value="bulldog">Bulldog</option>
+            <option value="collie">Collie</option>
+            <option value="corgi">Corgi</option>
+            <option value="dalmatian">Dalmatian</option>
+            <option value="dane">Dane</option>
+            <option value="doberman">Doberman</option>
+            <option value="husky">Husky</option>
+            <option value="labrador">Labrador</option>
+            <option value="lhasa">Lhasa-Apso</option>
+            <option value="maltese">Maltese</option>
+            <option value="pitbull">Pitbull</option>
+            <option value="poodle">Poodle</option>
+            <option value="pug">Pug</option>
+            <option value="retriever">Retriever</option>
+            <option value="rottweiler">Rottweiler</option>
+            <option value="shihtzu">Shih-Tzu</option>
+            <option value="shiba">Shiba-Inu</option>
+            <option value="stbernard">St Bernard</option>
+            <option value="terrier">Terrier</option>
+          </select>
+        </div>
+
+        <img src="" id="dog-pic" sizes="(max-width: 600px) 200px, 50vw" />
+      </div>
+      <br />
+      <footer>
+        <span
+          >Powered By
+          <a href="https://dog.ceo/dog-api/" target="_blank">Dog API</a></span
+        >
+       <br> <span id="lob">
+        With <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg> from Aftaab </span>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
